@@ -8,3 +8,7 @@ vowel_o = sentence.count("o")
 vowel_u = sentence.count("u")
 total = vowel_a + vowel_e + vowel_i + vowel_o + vowel_u
 print(total)
+
+
+
+

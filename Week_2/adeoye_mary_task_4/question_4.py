@@ -9,3 +9,13 @@ create_case_converter= list_of_names.lower()
 splitter = create_case_converter.split()
 splitter.sort()
 print(*splitter, sep="\n")
+
+
+
+
+
+
+
+
+
+

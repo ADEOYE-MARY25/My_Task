@@ -6,3 +6,7 @@ items = input("Kindly input the items you want to buy: ")
 quantity = int(input("kindly input the quantity you want to purchase"))
 store[items] += quantity
 print("updated store", store)
+
+
+
+
