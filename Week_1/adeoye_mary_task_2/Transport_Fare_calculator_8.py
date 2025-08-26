@@ -1,5 +1,5 @@
 #Transport Fare Calculator
-Festival_name = str(input("kindly input the name of the festival:"))
-location = str(input("kindly input your location:"))
-month_held = str(input("kindly input your month held:"))
-print(f"The \"{Festival_name}\" held in {location} in the month  {month_held}.")
+distance= float(input("kindly input the distance covered in km:"))
+fare= float(input("kindly input the amount of fare")) 
+total_fare= distance * fare
+print(f"the distance covered {distance}, fare per km is {fare}, and the total fare is {total_fare}")

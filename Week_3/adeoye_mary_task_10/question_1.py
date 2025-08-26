@@ -19,18 +19,3 @@ else:
 
 
     # Using try method
-try:
-    checked_balance = float(Buy_Airtime) #convert input to numbwe
-    if checked_balance > Buy_Airtime:
-        raise ValueError("Insufficient funds.")
-    
-    Buy_Airtime -=checked_balance
-    print("Withdraw successful.  New balance: is", checked_balance)
-except ValueError as e:
-    print("Error", e)
-
-except Exception as e:
-    print("unexpected error:", e)
-
-finally:
-    print("Transaction session closed.")
